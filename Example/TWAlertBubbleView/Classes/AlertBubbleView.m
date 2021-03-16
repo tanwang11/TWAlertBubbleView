@@ -30,9 +30,9 @@
         if (!self.bgColor) {
             self.bgColor = [UIColor clearColor];
         }
-        if (self.lableInnerGap != 0 && self.customeViewInnerGap == 0) {
-            self.customeViewInnerGap = self.lableInnerGap;
-        }
+//        if (self.lableInnerGap != 0 && self.customeViewInnerGap == 0) {
+//            self.customeViewInnerGap = self.lableInnerGap;
+//        }
     }
     return self;
 }

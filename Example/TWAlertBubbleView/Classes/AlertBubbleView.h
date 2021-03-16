@@ -31,7 +31,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 // customeView距离AlertBubbleView边界的insertEdge gap, 防止customeView紧紧贴AlertBubbleView显示
 @property (nonatomic        ) float    customeViewInnerGap;
-@property (nonatomic        ) float    lableInnerGap NS_DEPRECATED_IOS(1_0, 1_0, "Use -customeViewInnerGap");
+//@property (nonatomic        ) float    lableInnerGap NS_DEPRECATED_IOS(1_0, 1_0, "Use -customeViewInnerGap");
 
 @property (nonatomic, weak  ) UIView   * baseView;
 
