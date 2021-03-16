@@ -1,0 +1,22 @@
+{
+  "name": "TWAlertBubbleView",
+  "version": "0.1.0",
+  "summary": "A short description of TWAlertBubbleView.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tanwang11/TWAlertBubbleView",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tanwang11": "aihy@linrunwc.com"
+  },
+  "source": {
+    "git": "https://github.com/tanwang11/TWAlertBubbleView.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "TWAlertBubbleView/Classes/**/*"
+}

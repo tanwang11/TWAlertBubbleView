@@ -1,0 +1,6 @@
+framework module TWAlertBubbleView {
+  umbrella header "TWAlertBubbleView-umbrella.h"
+
+  export *
+  module * { export * }
+}

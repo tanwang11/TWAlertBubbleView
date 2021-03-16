@@ -24,6 +24,11 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		8F3E33BF79169D71C83FB086 /* Pods_TWAlertBubbleView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925533F50B466E204D47D65B /* Pods_TWAlertBubbleView_Tests.framework */; };
+		D1005C782600994000DFCE60 /* AlertBubbleBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005C722600993F00DFCE60 /* AlertBubbleBezierPath.m */; };
+		D1005C7A2600994000DFCE60 /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = D1005C772600994000DFCE60 /* .gitkeep */; };
+		D1005C8A260099D600DFCE60 /* AlertBubbleFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005C89260099D600DFCE60 /* AlertBubbleFrame.m */; };
+		D1005C8F26009A2600DFCE60 /* AlertBubbleLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005C8E26009A2600DFCE60 /* AlertBubbleLable.m */; };
+		D1005C9426009A5400DFCE60 /* AlertBubbleView.m in Sources */ = {isa = PBXBuildFile; fileRef = D1005C9326009A5400DFCE60 /* AlertBubbleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0C1B75735AA40C8D1B71DF4B /* Pods_TWAlertBubbleView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWAlertBubbleView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		291CCD95C8942ECB8D32CC02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		291CCD95C8942ECB8D32CC02 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TWAlertBubbleView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TWAlertBubbleView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,9 +67,19 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		925533F50B466E204D47D65B /* Pods_TWAlertBubbleView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TWAlertBubbleView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		99420B415FF9179BAF59D5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		99420B415FF9179BAF59D5A1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		C432447D324152F0FBE1E86F /* Pods-TWAlertBubbleView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWAlertBubbleView_Example.release.xcconfig"; path = "Target Support Files/Pods-TWAlertBubbleView_Example/Pods-TWAlertBubbleView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CE661E094E6C389FFDB332D7 /* TWAlertBubbleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TWAlertBubbleView.podspec; path = ../TWAlertBubbleView.podspec; sourceTree = "<group>"; };
+		CE661E094E6C389FFDB332D7 /* TWAlertBubbleView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TWAlertBubbleView.podspec; path = ../TWAlertBubbleView.podspec; sourceTree = "<group>"; };
+		D1005C722600993F00DFCE60 /* AlertBubbleBezierPath.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertBubbleBezierPath.m; sourceTree = "<group>"; };
+		D1005C742600993F00DFCE60 /* AlertBubbleHead.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBubbleHead.h; sourceTree = "<group>"; };
+		D1005C752600993F00DFCE60 /* AlertBubbleBezierPath.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertBubbleBezierPath.h; sourceTree = "<group>"; };
+		D1005C772600994000DFCE60 /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		D1005C88260099D600DFCE60 /* AlertBubbleFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertBubbleFrame.h; sourceTree = "<group>"; };
+		D1005C89260099D600DFCE60 /* AlertBubbleFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertBubbleFrame.m; sourceTree = "<group>"; };
+		D1005C8D26009A2600DFCE60 /* AlertBubbleLable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertBubbleLable.h; sourceTree = "<group>"; };
+		D1005C8E26009A2600DFCE60 /* AlertBubbleLable.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertBubbleLable.m; sourceTree = "<group>"; };
+		D1005C9226009A5400DFCE60 /* AlertBubbleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AlertBubbleView.h; sourceTree = "<group>"; };
+		D1005C9326009A5400DFCE60 /* AlertBubbleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlertBubbleView.m; sourceTree = "<group>"; };
 		D4B0471F25C2D327F4CA8FFB /* Pods-TWAlertBubbleView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWAlertBubbleView_Example.debug.xcconfig"; path = "Target Support Files/Pods-TWAlertBubbleView_Example/Pods-TWAlertBubbleView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DAF0157AF223CE5E1897489B /* Pods-TWAlertBubbleView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TWAlertBubbleView_Tests.release.xcconfig"; path = "Target Support Files/Pods-TWAlertBubbleView_Tests/Pods-TWAlertBubbleView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +147,8 @@
 		6003F593195388D20070C39A /* Example for TWAlertBubbleView */ = {
 			isa = PBXGroup;
 			children = (
+				D1005C762600994000DFCE60 /* Assets */,
+				D1005C712600993F00DFCE60 /* Classes */,
 				6003F59C195388D20070C39A /* TWAppDelegate.h */,
 				6003F59D195388D20070C39A /* TWAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,8 +210,31 @@
 				6E69875756529A3DB0A62C2A /* Pods-TWAlertBubbleView_Tests.debug.xcconfig */,
 				DAF0157AF223CE5E1897489B /* Pods-TWAlertBubbleView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1005C712600993F00DFCE60 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				D1005C742600993F00DFCE60 /* AlertBubbleHead.h */,
+				D1005C752600993F00DFCE60 /* AlertBubbleBezierPath.h */,
+				D1005C722600993F00DFCE60 /* AlertBubbleBezierPath.m */,
+				D1005C88260099D600DFCE60 /* AlertBubbleFrame.h */,
+				D1005C89260099D600DFCE60 /* AlertBubbleFrame.m */,
+				D1005C8D26009A2600DFCE60 /* AlertBubbleLable.h */,
+				D1005C8E26009A2600DFCE60 /* AlertBubbleLable.m */,
+				D1005C9226009A5400DFCE60 /* AlertBubbleView.h */,
+				D1005C9326009A5400DFCE60 /* AlertBubbleView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D1005C762600994000DFCE60 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				D1005C772600994000DFCE60 /* .gitkeep */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +299,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -280,6 +321,7 @@
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
+				D1005C7A2600994000DFCE60 /* .gitkeep in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -365,11 +407,17 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TWAlertBubbleView_Example/Pods-TWAlertBubbleView_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Masonry/Masonry.framework",
 				"${BUILT_PRODUCTS_DIR}/TWAlertBubbleView/TWAlertBubbleView.framework",
+				"${BUILT_PRODUCTS_DIR}/TWFoundation/TWFoundation.framework",
+				"${BUILT_PRODUCTS_DIR}/TWUI/TWUI.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Masonry.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWAlertBubbleView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWFoundation.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TWUI.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -383,9 +431,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1005C782600994000DFCE60 /* AlertBubbleBezierPath.m in Sources */,
+				D1005C8A260099D600DFCE60 /* AlertBubbleFrame.m in Sources */,
+				D1005C9426009A5400DFCE60 /* AlertBubbleView.m in Sources */,
 				6003F59E195388D20070C39A /* TWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* TWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				D1005C8F26009A2600DFCE60 /* AlertBubbleLable.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -515,11 +567,19 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TWAlertBubbleView/TWAlertBubbleView-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/Masonry/Masonry.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TWAlertBubbleView/TWAlertBubbleView.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TWFoundation/TWFoundation.framework/Headers\"",
+					"\"${PODS_CONFIGURATION_BUILD_DIR}/TWUI/TWUI.framework/Headers\"",
+				);
 				INFOPLIST_FILE = "TWAlertBubbleView/TWAlertBubbleView-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
+				SYSTEM_HEADER_SEARCH_PATHS = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

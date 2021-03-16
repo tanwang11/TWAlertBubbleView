@@ -1,9 +1,17 @@
 use_frameworks!
 
+source 'https://github.com/tanwang11/TWSpecs.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
 platform :ios, '9.0'
 
 target 'TWAlertBubbleView_Example' do
   pod 'TWAlertBubbleView', :path => '../'
+  
+  pod 'TWUI'
+  pod 'TWFoundation'
+  
 
   target 'TWAlertBubbleView_Tests' do
     inherit! :search_paths
